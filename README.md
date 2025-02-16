@@ -1,7 +1,17 @@
 
 # ML Mental Health Modeling Pipeline on GCP Vertex AI, Orchestrated with Terraform
 
-This project implements a **Machine Learning (ML) Mental Health Modeling Pipeline** on **Google Cloud Platform (GCP)**, leveraging **Vertex AI** for model development and deployment, and **Terraform** for infrastructure provisioning and management. The pipeline is fully automated, enabling infrastructure-as-code (IaC) practices for scalability and reproducibility.
+This project explores mental health patterns using machine learning. The goal is to train an AI model that can recognize trends in mental well-being based on historical data. Everything runs on **Google Cloud (GCP)** to take advantage of scalable computing power.
+
+### Technology Stack ###
+
+**Vertex AI** helps develop, train, and deploy the machine learning model, making it easier to analyze mental health data.
+
+**Terraform** automates the setup of all necessary cloud resources (like servers and storage), ensuring everything is consistent and easy to recreate. This approach, called Infrastructure as Code (IaC), makes scaling and managing the system much smoother.
+
+### Benefits ###
+By automating the entire process—from setting up infrastructure to training and deploying the model—efficiency, scalability, and reproducibility are ensured. This project combines AI and cloud computing to gain meaningful insights into mental health, with the hope of making a positive impact.
+
 
 ---
 
@@ -24,19 +34,20 @@ This project implements a **Machine Learning (ML) Mental Health Modeling Pipelin
 
 ## Overview
 
-This project automates end-to-end machine learning workflows using GCP, Vertex AI, and Terraform.
+This project automates end-to-end machine learning workflows using Google Cloud Platform (GCP), Vertex AI, and Terraform for seamless deployment and scalability.
 
-The project is designed to predict mental health conditions and can be repurosed for other domains like finance and customer analytics.
+Designed to predict mental health conditions, the framework is adaptable and can be repurposed for various domains, including finance and customer analytics.
 
-Below is an overview of the infrastructure and model training pipeline.
+The following sections provide an overview of the infrastructure setup and model training pipeline.
 
-Application:
+### Application: 
 
+The application is accessible through a web interface, where users (patients) answer a series of questions to assess their mental health condition and determine the need for medical intervention. The system leverages machine learning to analyze responses and provide insights based on identified patterns.
 <p align="center">
   <img src="images/app.png" width=600 />
 </p>
 
-Architecure:
+### Architecure: 
 
 <p align="center">
   <img src="images/architecture.png" width=600 "/>
